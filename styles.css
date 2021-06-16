@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  overflow: hidden;
+  color: #8c50ff;
+}
+
+#nav-menu a{
+    color: rgb(34, 33, 33);
+}
+
+#nav-menu a:hover{
+    color: #8c50ff;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 40px;
+  padding-left: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav {
+  background-color:white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+#nav-menu li {
+  display: inline;
+  font-size: 28px;
+  padding-right: 70px;
+  font-weight: 500;
+}
+
+#imagen {
+  width: 500px;
+  height: 500px;
+}
+
+main {
+  display: flex;
+  padding-top: 220px;
+  width: 100%;
+}
+
+.contenedor-texto {
+  flex-basis: 50%;
+  margin: 0px 220px;
+  text-align: left;
+  font-size: 35px;
+}
+
+.contenedor-imagen {
+  flex-basis: 50%;
+  margin-right: 170px;
+}
+
+.button {
+  background-color: #8c50ff;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button:hover{
+    background-color: #803efa;
+}
+
+.button2:hover{
+    background-color: #803efa;
+}
+
+.button2 {
+  background-color: #8c50ff;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 35px;
+}
+
+span {
+  color: #8c50ff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+footer {
+  font-size: 18px;
+  display: flex;
+  background-color: #8c50ff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 50px;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.photo{
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+  padding: 0 15px;
+}
