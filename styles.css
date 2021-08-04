@@ -37,6 +37,7 @@ a:visited {
   padding-left: 50px;
   font-weight: bold;
   letter-spacing: 1px;
+  text-align: justify;
 }
 
 nav {
@@ -46,6 +47,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+  overflow: hidden;
 }
 
 #nav-menu li {
@@ -166,6 +170,10 @@ footer {
 
   .navegacion-principal{
     display: block;
+  }
+
+  nav{
+    /* height: 200px; */
   }
 
   #nav-menu{
