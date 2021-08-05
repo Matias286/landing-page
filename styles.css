@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   overflow: hidden;
   color: #8c50ff;
+  transition: all ease 0.2s;
 }
 #nav-menu{
   display: flex;
@@ -128,7 +129,13 @@ footer {
   width: 30px;
   height: 30px;
   margin: 50px 15px;
+  transition: all ease 0.3s;
 }
+
+.photo:hover{
+  transform: translateY(-5px);
+}
+
 
 @media screen and (max-width: 1185px){
   main{
