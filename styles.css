@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
+  zoom: 110%;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -47,10 +48,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
   box-shadow: 0 19px 38px rgba(0,0,0,0.10);
   overflow: hidden;
+  transition: all ease 0.3s;
 }
 
 #nav-menu li {
@@ -67,7 +67,7 @@ nav {
 
 main {
   display: flex;
-  padding-top: 220px;
+  padding: 120px 0px;
   width: 100%;
   height: 100%;
   min-width: 320px;
@@ -152,6 +152,10 @@ footer {
     padding-left: 25px;
   }
 
+  .contenedor-texto{
+    margin-bottom: 100px;
+  }
+
   .contenedor-imagen{
     margin: 0 0;
   }
@@ -166,7 +170,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
   main{
     flex-wrap: wrap;
     align-content: center;
@@ -185,7 +189,10 @@ footer {
   }
 
   .navegacion-principal{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all ease 0.3s;
   }
 
 
@@ -193,6 +200,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 0px;
+    transition: all ease 0.3s;
   }
 
   #nav-menu li{
@@ -241,4 +249,3 @@ footer {
   }
 
 }
-
